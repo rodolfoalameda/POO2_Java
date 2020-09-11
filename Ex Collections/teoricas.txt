@@ -1,0 +1,8 @@
+Teoricas 
+
+1 - A principal diferença é a respeito do acesso aos objetos. No arraylist o mesmo objeto pode ser acessado por mais de uma fonte externa, o que pode
+ser um problema. No vector não, é justamente ao contrário, o elemento so pode ser acessado por uma fonte externa de cada vez.
+
+4 - Pelo que li aqui, o hashmap não é sincronizado e permite valores null, justamente o contrario do hashtable. Neste caso, para aplicações que não são
+threads sincronizadas seria melhor o hashmap.
+

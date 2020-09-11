@@ -1,0 +1,62 @@
+Erros encontrados a partir do Debug
+
+1) Abastecimento
+
+	Mudança na logica do getRecomendação();
+	Mudanças na classe;
+
+----------------------------------------------------------------
+
+2) Ano
+	
+	Mudança na logica do getQntdDias(); e no isBissexto();
+	Mudança na variavel static final;
+	Formatacao do for no App.Java;
+
+----------------------------------------------------------------
+
+3) Contador
+
+	Mudança no setValor();
+	Mudança na logica do getQtdDigitos();
+
+----------------------------------------------------------------
+
+4) Equação 2º Grau
+
+	Mudança nos setters();
+	Mudança no getDelta();
+	Mudança no getQtdRaizes();
+	Mudança no switch();
+	Mudança no sysout();
+
+----------------------------------------------------------------
+
+5) Gerador de Primos
+	
+	Mudança no isPrimo();
+	Mudança no for do app;
+	Mudança no getProxPrimo();
+----------------------------------------------------------------
+
+6) Mês
+
+	Mudança no Switch();
+	Mudança nos construtores;
+	
+----------------------------------------------------------------
+
+7) Pagamento
+	
+	Mudança construtor PagamentoAVistaComDesconto();
+	Mudança metodo getValorAPagar();
+	Mudança construtor PagamentoParcelado();
+	Mudança na SuperClasse Pagamento, metodo getValorParcela();
+
+----------------------------------------------------------------- 
+	
+	
+	
+	
+
+	
