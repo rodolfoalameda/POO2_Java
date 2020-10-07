@@ -11,7 +11,6 @@ public class LinkedList {
 	public Aviao cabeca;
 	private int inseridos;
 
-	
 	// inserir avião na cabeça da fila
 	public void add(Aviao a) {
 		if (cabeca == null) {
@@ -22,14 +21,13 @@ public class LinkedList {
 		}
 		inseridos++;
 	}
-	
-	//quantos aviões tem na pista
+
+	// quantos aviões tem na pista
 	public int size() {
 		return inseridos;
 	}
 
-	
-	//autoriza a decolagem da cabeça 
+	// autoriza a decolagem da cabeça
 	public void removerPrimeiro() {
 		if (cabeca == null) {
 			System.out.println("Não tem avião para decolar");
@@ -40,8 +38,8 @@ public class LinkedList {
 		}
 		inseridos--;
 	}
-	
-	//adiciona no fim da fila
+
+	// adiciona no fim da fila
 	public void noFim(Aviao a) {
 		if (cabeca == null) {
 			cabeca = a;
@@ -76,4 +74,15 @@ public class LinkedList {
 			return resposta;
 		}
 	}
+
+	public ArrayList<Aviao> lista() {
+		ArrayList<Aviao> aux = new ArrayList<Aviao>();
+		Aviao aviao = cabeca;
+		while (aviao != null) {
+			aux.add(aviao);
+			aviao = aviao.proximo;
+		}
+		return aux;
+	}
+
 }
